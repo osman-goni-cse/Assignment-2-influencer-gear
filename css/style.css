@@ -1,0 +1,94 @@
+/* --------------------
+  Import Font Awesome
+  --------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* ---------------
+  Common CSS
+  ---------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 30px auto;
+  /* padding: 0 30px; */
+}
+
+.primary-button {
+  outline: 0;
+  border: 0;
+  height: 44px;
+  width: 196px;
+  border-radius: 41px;
+  /* padding: 10px; */
+  background-color: #E02C6D;
+  color: white;
+  font-weight: 700;
+}
+
+.fa-arrow-right {
+  padding-left: 10px;
+}
+
+/* ----------------
+  Header CSS
+  ---------------- */
+
+header {
+  height: calc(100vh - 80px);
+}
+
+nav {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FF08;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+/*-----------------
+    Banner CSS
+-----------------*/
+
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.banner-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 70px;
+  border: 2px solid red;
+}
+
+.banner-left h1 {
+  font-size: 40px;
+}
+
+.banner-left p {
+  margin: 15px 0;
+}
