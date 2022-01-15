@@ -96,6 +96,10 @@ nav ul li a {
 /* ------------------------
   Popular Collection CSS
   ------------------------- */
+.collections {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
 
 .collection {
   width: 320px;
@@ -104,6 +108,7 @@ nav ul li a {
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
   padding: 10px;
+  margin-bottom: 20px;
 }
 
 .collection ul li {
