@@ -215,8 +215,13 @@ nav ul li a {
 
 footer ul li {
   list-style: none;
+  text-align: center;
 }
 
 footer ul li a {
   color: white;
 }
+
+/* --------------------
+  Bonus Animation CSS
+-----------------------*/
