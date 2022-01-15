@@ -1,6 +1,6 @@
 /* --------------------
-  Import Font Awesome
-  --------------------*/
+Import Font Awesome
+--------------------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
@@ -21,7 +21,7 @@ body {
 .container {
   max-width: 1200px;
   margin: 30px auto;
-  /* padding: 0 30px; */
+  padding: 0 30px;
 }
 
 .primary-button {
@@ -164,11 +164,6 @@ nav ul li a {
   Bonus Section
 ------------------------- */
 
-#bonus-section {
-  /* display: flex;
-  justify-content: center; */
-}
-
 .best-seller-gadget {
   display: flex;
   grid-template-columns: repeat(3, 1fr);
@@ -210,7 +205,6 @@ nav ul li a {
 #social-media {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   width: 126px;
   height: 32px;
   margin-left: 45px;
@@ -258,11 +252,11 @@ footer ul li a {
   Responsive CSS for Mobile
 -------------------------- */
 
-@media (max-width:650px) {
+@media (max-width:730px) {
 
   .banner-left {
     top: 50%;
-    left: 20%;
+    left: 5%;
     position: relative;
   }
   nav ul {
