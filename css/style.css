@@ -48,6 +48,7 @@ body {
 
 header {
   height: calc(100vh - 80px);
+  min-height: 700px; /* For Responsive */
 }
 
 nav {
@@ -231,3 +232,48 @@ footer ul li a {
 /* --------------------
   Bonus Animation CSS
 -----------------------*/
+
+
+/* -------------------------
+  Responsive CSS for Tablet 
+----------------------------*/
+
+@media (max-width:1020px) {
+  
+  .collections, 
+  .best-seller-gadget {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+} 
+
+/* -----------------------
+  Responsive CSS for Mobile
+-------------------------- */
+
+@media (max-width:650px) {
+  nav ul {
+    display: none;
+  }
+  
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner-left {
+    order: 2;
+  }
+
+  .collection-heading h2{
+    padding-top: 200px;
+  }
+
+  .collections, 
+  .best-seller-gadget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+} 
