@@ -238,8 +238,14 @@ footer ul li a {
   Responsive CSS for Tablet 
 ----------------------------*/
 
-@media (max-width:1020px) {
-  
+@media (max-width:1024px) {
+  header {
+    height: 400px;
+  }
+  .container {
+    max-width: 1024px;
+    margin: 30px auto;
+  }
   .collections, 
   .best-seller-gadget {
     display: grid;
@@ -253,6 +259,12 @@ footer ul li a {
 -------------------------- */
 
 @media (max-width:650px) {
+
+  .banner-left {
+    top: 50%;
+    left: 20%;
+    position: relative;
+  }
   nav ul {
     display: none;
   }
@@ -264,6 +276,13 @@ footer ul li a {
 
   .banner-left {
     order: 2;
+  }
+
+  .banner-right img{
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
   }
 
   .collection-heading h2{
